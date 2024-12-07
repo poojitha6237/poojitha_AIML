@@ -1,0 +1,13 @@
+//write a programm to print Good morning
+#include <stdio.h>
+int main()
+{
+    printf("Good morning\n");
+    printf("This is Our First C Programming Session");
+    return 0;
+}
+
+    
+
+
+

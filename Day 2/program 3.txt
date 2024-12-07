@@ -1,0 +1,18 @@
+//write a c program to read the integer as  input for user an print odd number from 1 to 100 ?
+#include <stdio.h>
+
+int main()
+{
+    int num;k
+    printf("Enter an integer:");
+    scanf("%d", &num);
+    for( int i=1;i<=num;i++)
+    {
+        if(i%2!=0)
+        {
+        printf("%d \n",i);
+        }
+    }
+
+    return 0;
+}

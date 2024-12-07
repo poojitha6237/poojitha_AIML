@@ -1,0 +1,19 @@
+// write a c program to read the mouth number as input from the user and check wheater it is a valid month number or not ?
+#include <stdio.h>
+
+int main()
+{
+    int month;
+    printf("enter the month:");
+    scanf("%d",& month);
+    if(month>=1,month<=12)
+    {
+        printf("valid month number");
+    }
+    else
+    {
+        printf("not a valid month number");
+    }
+
+    return 0;
+}

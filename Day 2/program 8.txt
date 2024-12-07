@@ -1,0 +1,17 @@
+// write a c program to print the square vaules from 1 to n ?
+#include <stdio.h>
+
+int main()
+{
+    int num; 
+    int sum=0;
+    printf("Enter the value of num:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+    {
+       sum=sum+i; //LHS(variable)=RHS(value)
+    }
+    printf("%d is summation of 1 to %d \n",sum,num);
+
+    return 0;
+}

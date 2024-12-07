@@ -1,0 +1,17 @@
+//write a c program to read the input for num as integer and print the  numbers from 1 to num??
+#include <stdio.h>
+
+int main()
+{
+    int n,i;
+    printf("Enter a number :");
+    scanf("%d",&n);
+    printf("numbers from 1 to %d \n",n);
+    while(i<=n)
+    {
+        printf("%d \n",i);
+        i++;
+    }
+
+    return 0;
+}
