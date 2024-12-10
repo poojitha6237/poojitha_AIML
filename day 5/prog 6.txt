@@ -1,0 +1,27 @@
+// 
+#include <stdio.h>
+
+int main() 
+{
+    int productCode;
+    char productName[15];
+    int Quantity;
+    int price;
+    printf("Enter the product code :\n");
+    scanf("%d",&productCode);
+    printf("Enter the product name :\n");
+    scanf("%s",&productName);
+    printf("Enter the Quantity code :\n");
+    scanf("%d",&Quantity);
+    printf("Enter the price :\n");
+    scanf("%d",&price);
+    printf("customer bill :\n");
+    printf("---------------------------\n");
+    printf("product : %s \n",productName);
+    printf("Quantity : %d \n",Quantity);
+    printf("price :%d x %d = %d \n",Quantity,price,Quantity*price);
+    printf("net amount: %d\n",(Quantity * price));
+    
+
+    return 0;
+}
